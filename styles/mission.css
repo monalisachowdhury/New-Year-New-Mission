@@ -3,7 +3,7 @@ body{
     font-family: Merriweather;
 }   
 /* header related styles */
-.banner{
+.first-banner{
     width: 1320px;
     height: 600px;
     border-radius: 16px;
@@ -11,9 +11,10 @@ body{
     background-image: url('../resources/Banner\ Image.png');
     
 }
-.banner-content{
+.first-banner-content{
     width: 1320px;
     height: 600px;
+    border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 
 }
@@ -35,4 +36,44 @@ body{
     font-weight: 900;
     padding: 0 340px 170px 340px;
     margin-top: 0;
+}
+.discount{
+    width: 1600px;
+    height: 700px;
+    background: #FFF;
+    margin: 120px 50px 0 50px;
+}
+.discount-content{
+    color: #F00;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 0;
+    padding: 0 210px 0 210px;
+}
+.content{
+    text-align: center;
+}
+.deal{
+    color: #F00;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+.discount-title{
+    color: #070211;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 19px;
+    margin-bottom: 48px;
+}
+.new-year{
+    text-align: center;
+    /* padding: 48px 258px 0 258px; */
 }
