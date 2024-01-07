@@ -123,3 +123,41 @@ body{
     border: 0;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
+.occasion{
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 120px 50px 0 50px;
+    text-align: center;
+}
+.occasion-schedule{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 100px 385px 0 385px;
+}
+span{
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+.occasion-btn{
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 48px;
+    padding: 0 576px 110px 576px;
+}
+.btn-red{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    background: #F00;
+    padding: 16px 32px;
+    border: 0;
+    border-radius: 8px;
+}
