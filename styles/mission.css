@@ -1,0 +1,38 @@
+/* common related style */
+body{
+    font-family: Merriweather;
+}   
+/* header related styles */
+.banner{
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin: 25px 50px 0 50px;
+    background-image: url('../resources/Banner\ Image.png');
+    
+}
+.banner-content{
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+}
+.small-title{
+    /* width: 250px;
+    height: 40px; */
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 170px 530px 16px 530px;
+    margin-bottom: 0;
+}
+.big-title{
+    /* width: 632px; */
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    padding: 0 340px 170px 340px;
+    margin-top: 0;
+}
