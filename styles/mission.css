@@ -431,3 +431,60 @@ mix-blend-mode: multiply; */
     font-size: 20px;
     font-weight: 600;
 }
+
+/* footer related styles */
+.footer-section{
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+    margin: 120px 0 0 0;
+}
+.address-details{
+    display: flex;
+}
+.address{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 75px 450px 50px 140px;
+    margin-top:0;
+}
+.contact{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 75px 140px 50px 0;
+}
+.social-link{
+    text-align: center;
+    padding: 48px 0 48px 0;
+}
+.social-media{
+    margin-right:24px;
+    width: 64px;
+    height: 64px;
+}
+.copy-rights{
+    display: flex;
+}
+.copyright{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 50px 808px 120px 140px;
+}
+.unsubscribe{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 50px 140px 120px 0;
+}
+hr{
+    width: 1320px;
+    height: 1px;
+    color: rgba(255, 255, 255, 0.15); 
+}
