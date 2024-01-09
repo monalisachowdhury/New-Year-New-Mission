@@ -19,7 +19,7 @@ body{
 
 }
 .small-title{
-    /* width: 250px;
+        /* width: 250px;
     height: 40px; */
     color: #FFF;
     text-align: center;
@@ -299,24 +299,26 @@ mix-blend-mode: multiply; */
     position: absolute;
     right: 300px;
     top: 110px;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    /* padding-bottom: 0;
+    margin-bottom: 0;    */
 }
 .red-background{
     width: 1320px;
     height: 157px;
-    border: 2px solid #F00;
+    /* border: 2px solid #F00; */
     border-radius: 0 0 16px 16px;
     background: #F00;
     position: relative;
+    margin-top: 0;
 }
 .mystery-box{
-    width: 500px;
+    width: 550px;
     height: 500px;
     /* position: relative; */
     position: absolute;
-    bottom: 30px;
+    bottom: 5px;
     padding:0 149px 0 149px;
+    margin-top:0 ;
 }
 .gifts-section{
     width: 1320px;
@@ -412,7 +414,8 @@ mix-blend-mode: multiply; */
     
     right: 2px;
     width: 448px;
-    height: 46px;
+    height: 52px;
+    border: 0;
     border-radius: 50px 0 0 50px;
     background: #FFF;
     padding-left: 30px;
